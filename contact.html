@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato — Ninna Silva</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Ninna Silva</a>
+      <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+      <nav class="nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre</a>
+        <a href="skills.html">Habilidades</a>
+        <a href="projects.html">Projetos</a>
+        <a href="contact.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contato</h1>
+    <p>Fale comigo através das redes abaixo ou envie uma mensagem direta.</p>
+    <ul class="contact-list">
+      <li><strong>Email:</strong> <a href="mailto:seu.email@exemplo.com">seu.email@exemplo.com</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seu-perfil">/in/seu-perfil</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/seu-usuario">github.com/seu-usuario</a></li>
+    </ul>
+
+    <h2>Enviar mensagem</h2>
+    <form id="contact-form">
+      <label for="name">Nome</label>
+      <input id="name" name="name" required>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+      <button class="btn" type="submit">Enviar</button>
+      <p id="form-status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>© 2025 Ninna Silva</p></div>
+  </footer>
+</body>
+</html>
